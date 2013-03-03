@@ -1,15 +1,8 @@
-//
-//  YAPPAViewController.m
-//  YAPPA
-//
-//  Created by Richard Fuchshuber on 02/03/13.
-//  Copyright (c) 2013 Richard Fuchshuber. All rights reserved.
-//
-
 #import "YAPPAViewController.h"
+#import "CardView.h"
 
 @interface YAPPAViewController ()
-
+@property (weak, nonatomic) IBOutlet CardView *cardView;
 @end
 
 @implementation YAPPAViewController
