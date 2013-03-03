@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798ECA3716E2DBF4006A0F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3616E2DBF4006A0F98 /* UIKit.framework */; };
+		798ECA3916E2DBF4006A0F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3816E2DBF4006A0F98 /* Foundation.framework */; };
+		798ECA3B16E2DBF4006A0F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3A16E2DBF4006A0F98 /* CoreGraphics.framework */; };
+		798ECA4116E2DBF4006A0F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA3F16E2DBF4006A0F98 /* InfoPlist.strings */; };
+		798ECA4316E2DBF4006A0F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECA4216E2DBF4006A0F98 /* main.m */; };
+		798ECA4716E2DBF4006A0F98 /* YAPPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECA4616E2DBF4006A0F98 /* YAPPAAppDelegate.m */; };
+		798ECA4916E2DBF4006A0F98 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA4816E2DBF4006A0F98 /* Default.png */; };
+		798ECA4B16E2DBF4006A0F98 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA4A16E2DBF4006A0F98 /* Default@2x.png */; };
+		798ECA4D16E2DBF4006A0F98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA4C16E2DBF4006A0F98 /* Default-568h@2x.png */; };
+		798ECA5016E2DBF4006A0F98 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA4E16E2DBF4006A0F98 /* MainStoryboard.storyboard */; };
+		798ECA5316E2DBF4006A0F98 /* YAPPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECA5216E2DBF4006A0F98 /* YAPPAViewController.m */; };
+		798ECA5B16E2DBF4006A0F98 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA5A16E2DBF4006A0F98 /* SenTestingKit.framework */; };
+		798ECA5C16E2DBF4006A0F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3616E2DBF4006A0F98 /* UIKit.framework */; };
+		798ECA5D16E2DBF4006A0F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3816E2DBF4006A0F98 /* Foundation.framework */; };
+		798ECA6516E2DBF4006A0F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA6316E2DBF4006A0F98 /* InfoPlist.strings */; };
+		798ECA6816E2DBF4006A0F98 /* YAPPATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECA6716E2DBF4006A0F98 /* YAPPATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798ECA5E16E2DBF4006A0F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798ECA2B16E2DBF4006A0F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798ECA3216E2DBF4006A0F98;
+			remoteInfo = YAPPA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		798ECA3316E2DBF4006A0F98 /* YAPPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAPPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798ECA3616E2DBF4006A0F98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		798ECA3816E2DBF4006A0F98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		798ECA3A16E2DBF4006A0F98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		798ECA3E16E2DBF4006A0F98 /* YAPPA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAPPA-Info.plist"; sourceTree = "<group>"; };
+		798ECA4016E2DBF4006A0F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		798ECA4216E2DBF4006A0F98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		798ECA4416E2DBF4006A0F98 /* YAPPA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAPPA-Prefix.pch"; sourceTree = "<group>"; };
+		798ECA4516E2DBF4006A0F98 /* YAPPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAPPAAppDelegate.h; sourceTree = "<group>"; };
+		798ECA4616E2DBF4006A0F98 /* YAPPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAPPAAppDelegate.m; sourceTree = "<group>"; };
+		798ECA4816E2DBF4006A0F98 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		798ECA4A16E2DBF4006A0F98 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		798ECA4C16E2DBF4006A0F98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		798ECA4F16E2DBF4006A0F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		798ECA5116E2DBF4006A0F98 /* YAPPAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAPPAViewController.h; sourceTree = "<group>"; };
+		798ECA5216E2DBF4006A0F98 /* YAPPAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAPPAViewController.m; sourceTree = "<group>"; };
+		798ECA5916E2DBF4006A0F98 /* YAPPATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAPPATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		798ECA5A16E2DBF4006A0F98 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		798ECA6216E2DBF4006A0F98 /* YAPPATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAPPATests-Info.plist"; sourceTree = "<group>"; };
+		798ECA6416E2DBF4006A0F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		798ECA6616E2DBF4006A0F98 /* YAPPATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAPPATests.h; sourceTree = "<group>"; };
+		798ECA6716E2DBF4006A0F98 /* YAPPATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAPPATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798ECA3016E2DBF4006A0F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECA3716E2DBF4006A0F98 /* UIKit.framework in Frameworks */,
+				798ECA3916E2DBF4006A0F98 /* Foundation.framework in Frameworks */,
+				798ECA3B16E2DBF4006A0F98 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798ECA5516E2DBF4006A0F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECA5B16E2DBF4006A0F98 /* SenTestingKit.framework in Frameworks */,
+				798ECA5C16E2DBF4006A0F98 /* UIKit.framework in Frameworks */,
+				798ECA5D16E2DBF4006A0F98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798ECA2A16E2DBF4006A0F98 = {
+			isa = PBXGroup;
+			children = (
+				798ECA3C16E2DBF4006A0F98 /* YAPPA */,
+				798ECA6016E2DBF4006A0F98 /* YAPPATests */,
+				798ECA3516E2DBF4006A0F98 /* Frameworks */,
+				798ECA3416E2DBF4006A0F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798ECA3416E2DBF4006A0F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA3316E2DBF4006A0F98 /* YAPPA.app */,
+				798ECA5916E2DBF4006A0F98 /* YAPPATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798ECA3516E2DBF4006A0F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA3616E2DBF4006A0F98 /* UIKit.framework */,
+				798ECA3816E2DBF4006A0F98 /* Foundation.framework */,
+				798ECA3A16E2DBF4006A0F98 /* CoreGraphics.framework */,
+				798ECA5A16E2DBF4006A0F98 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		798ECA3C16E2DBF4006A0F98 /* YAPPA */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA4516E2DBF4006A0F98 /* YAPPAAppDelegate.h */,
+				798ECA4616E2DBF4006A0F98 /* YAPPAAppDelegate.m */,
+				798ECA4E16E2DBF4006A0F98 /* MainStoryboard.storyboard */,
+				798ECA5116E2DBF4006A0F98 /* YAPPAViewController.h */,
+				798ECA5216E2DBF4006A0F98 /* YAPPAViewController.m */,
+				798ECA3D16E2DBF4006A0F98 /* Supporting Files */,
+			);
+			path = YAPPA;
+			sourceTree = "<group>";
+		};
+		798ECA3D16E2DBF4006A0F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA3E16E2DBF4006A0F98 /* YAPPA-Info.plist */,
+				798ECA3F16E2DBF4006A0F98 /* InfoPlist.strings */,
+				798ECA4216E2DBF4006A0F98 /* main.m */,
+				798ECA4416E2DBF4006A0F98 /* YAPPA-Prefix.pch */,
+				798ECA4816E2DBF4006A0F98 /* Default.png */,
+				798ECA4A16E2DBF4006A0F98 /* Default@2x.png */,
+				798ECA4C16E2DBF4006A0F98 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798ECA6016E2DBF4006A0F98 /* YAPPATests */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA6616E2DBF4006A0F98 /* YAPPATests.h */,
+				798ECA6716E2DBF4006A0F98 /* YAPPATests.m */,
+				798ECA6116E2DBF4006A0F98 /* Supporting Files */,
+			);
+			path = YAPPATests;
+			sourceTree = "<group>";
+		};
+		798ECA6116E2DBF4006A0F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA6216E2DBF4006A0F98 /* YAPPATests-Info.plist */,
+				798ECA6316E2DBF4006A0F98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798ECA3216E2DBF4006A0F98 /* YAPPA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798ECA6B16E2DBF4006A0F98 /* Build configuration list for PBXNativeTarget "YAPPA" */;
+			buildPhases = (
+				798ECA2F16E2DBF4006A0F98 /* Sources */,
+				798ECA3016E2DBF4006A0F98 /* Frameworks */,
+				798ECA3116E2DBF4006A0F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAPPA;
+			productName = YAPPA;
+			productReference = 798ECA3316E2DBF4006A0F98 /* YAPPA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		798ECA5816E2DBF4006A0F98 /* YAPPATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798ECA6E16E2DBF4006A0F98 /* Build configuration list for PBXNativeTarget "YAPPATests" */;
+			buildPhases = (
+				798ECA5416E2DBF4006A0F98 /* Sources */,
+				798ECA5516E2DBF4006A0F98 /* Frameworks */,
+				798ECA5616E2DBF4006A0F98 /* Resources */,
+				798ECA5716E2DBF4006A0F98 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798ECA5F16E2DBF4006A0F98 /* PBXTargetDependency */,
+			);
+			name = YAPPATests;
+			productName = YAPPATests;
+			productReference = 798ECA5916E2DBF4006A0F98 /* YAPPATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798ECA2B16E2DBF4006A0F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YAPPA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Richard Fuchshuber";
+			};
+			buildConfigurationList = 798ECA2E16E2DBF4006A0F98 /* Build configuration list for PBXProject "YAPPA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 798ECA2A16E2DBF4006A0F98;
+			productRefGroup = 798ECA3416E2DBF4006A0F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798ECA3216E2DBF4006A0F98 /* YAPPA */,
+				798ECA5816E2DBF4006A0F98 /* YAPPATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798ECA3116E2DBF4006A0F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECA4116E2DBF4006A0F98 /* InfoPlist.strings in Resources */,
+				798ECA4916E2DBF4006A0F98 /* Default.png in Resources */,
+				798ECA4B16E2DBF4006A0F98 /* Default@2x.png in Resources */,
+				798ECA4D16E2DBF4006A0F98 /* Default-568h@2x.png in Resources */,
+				798ECA5016E2DBF4006A0F98 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798ECA5616E2DBF4006A0F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECA6516E2DBF4006A0F98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		798ECA5716E2DBF4006A0F98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798ECA2F16E2DBF4006A0F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECA4316E2DBF4006A0F98 /* main.m in Sources */,
+				798ECA4716E2DBF4006A0F98 /* YAPPAAppDelegate.m in Sources */,
+				798ECA5316E2DBF4006A0F98 /* YAPPAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798ECA5416E2DBF4006A0F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECA6816E2DBF4006A0F98 /* YAPPATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798ECA5F16E2DBF4006A0F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798ECA3216E2DBF4006A0F98 /* YAPPA */;
+			targetProxy = 798ECA5E16E2DBF4006A0F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		798ECA3F16E2DBF4006A0F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798ECA4016E2DBF4006A0F98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		798ECA4E16E2DBF4006A0F98 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798ECA4F16E2DBF4006A0F98 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		798ECA6316E2DBF4006A0F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798ECA6416E2DBF4006A0F98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798ECA6916E2DBF4006A0F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		798ECA6A16E2DBF4006A0F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798ECA6C16E2DBF4006A0F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAPPA/YAPPA-Prefix.pch";
+				INFOPLIST_FILE = "YAPPA/YAPPA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		798ECA6D16E2DBF4006A0F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAPPA/YAPPA-Prefix.pch";
+				INFOPLIST_FILE = "YAPPA/YAPPA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		798ECA6F16E2DBF4006A0F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YAPPA.app/YAPPA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAPPA/YAPPA-Prefix.pch";
+				INFOPLIST_FILE = "YAPPATests/YAPPATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		798ECA7016E2DBF4006A0F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YAPPA.app/YAPPA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAPPA/YAPPA-Prefix.pch";
+				INFOPLIST_FILE = "YAPPATests/YAPPATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798ECA2E16E2DBF4006A0F98 /* Build configuration list for PBXProject "YAPPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798ECA6916E2DBF4006A0F98 /* Debug */,
+				798ECA6A16E2DBF4006A0F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798ECA6B16E2DBF4006A0F98 /* Build configuration list for PBXNativeTarget "YAPPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798ECA6C16E2DBF4006A0F98 /* Debug */,
+				798ECA6D16E2DBF4006A0F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		798ECA6E16E2DBF4006A0F98 /* Build configuration list for PBXNativeTarget "YAPPATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798ECA6F16E2DBF4006A0F98 /* Debug */,
+				798ECA7016E2DBF4006A0F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 798ECA2B16E2DBF4006A0F98 /* Project object */;
+}
