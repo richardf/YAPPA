@@ -64,8 +64,19 @@
 }
 
 - (NSAttributedString *) generateCardContentWithFont: (UIFont *) font {
-    return [[NSAttributedString alloc] initWithString:self.cardText attributes:@{NSFontAttributeName : font}];
+    return [[NSAttributedString alloc] initWithString:self.cardText attributes:@{NSFontAttributeName : font,
+                               NSShadowAttributeName : [self generateTextShadow]}];
 }
+
+- (NSShadow *) generateTextShadow
+{
+    NSShadow *shadowDic=[[NSShadow alloc] init];
+    [shadowDic setShadowBlurRadius:2.0];
+    [shadowDic setShadowColor:[UIColor grayColor]];
+    [shadowDic setShadowOffset:CGSizeMake(3, 3)];
+    return shadowDic;
+}
+
 
 - (void) setFaceUp:(BOOL)faceUp {
     _faceUp = faceUp;
