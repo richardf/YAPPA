@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7915263F16E2DF9D0093FD11 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7915263E16E2DF9D0093FD11 /* CardView.m */; };
+		792338A916E6D8DF00E70743 /* YAPPAListCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */; };
 		798ECA3716E2DBF4006A0F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3616E2DBF4006A0F98 /* UIKit.framework */; };
 		798ECA3916E2DBF4006A0F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3816E2DBF4006A0F98 /* Foundation.framework */; };
 		798ECA3B16E2DBF4006A0F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3A16E2DBF4006A0F98 /* CoreGraphics.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		7915263D16E2DF9D0093FD11 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
 		7915263E16E2DF9D0093FD11 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		792338A716E6D8DF00E70743 /* YAPPAListCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPAListCardsViewController.h; sourceTree = "<group>"; };
+		792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPAListCardsViewController.m; sourceTree = "<group>"; };
 		798ECA3316E2DBF4006A0F98 /* YAPPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAPPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798ECA3616E2DBF4006A0F98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		798ECA3816E2DBF4006A0F98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,17 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		792338AB16E6D8FB00E70743 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				798ECA5116E2DBF4006A0F98 /* YAPPAViewController.h */,
+				798ECA5216E2DBF4006A0F98 /* YAPPAViewController.m */,
+				792338A716E6D8DF00E70743 /* YAPPAListCardsViewController.h */,
+				792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		798ECA2A16E2DBF4006A0F98 = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +143,10 @@
 		798ECA3C16E2DBF4006A0F98 /* YAPPA */ = {
 			isa = PBXGroup;
 			children = (
+				792338AB16E6D8FB00E70743 /* Controller */,
 				798ECA4516E2DBF4006A0F98 /* YAPPAAppDelegate.h */,
 				798ECA4616E2DBF4006A0F98 /* YAPPAAppDelegate.m */,
 				798ECA4E16E2DBF4006A0F98 /* MainStoryboard.storyboard */,
-				798ECA5116E2DBF4006A0F98 /* YAPPAViewController.h */,
-				798ECA5216E2DBF4006A0F98 /* YAPPAViewController.m */,
 				798ECA3D16E2DBF4006A0F98 /* Supporting Files */,
 				7915264016E2DFA30093FD11 /* View */,
 			);
@@ -288,6 +301,7 @@
 				798ECA4716E2DBF4006A0F98 /* YAPPAAppDelegate.m in Sources */,
 				798ECA5316E2DBF4006A0F98 /* YAPPAViewController.m in Sources */,
 				7915263F16E2DF9D0093FD11 /* CardView.m in Sources */,
+				792338A916E6D8DF00E70743 /* YAPPAListCardsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
