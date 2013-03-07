@@ -43,4 +43,11 @@
     return cell;
 }
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString: @"showCard"]) {
+        UILabel *buttonLabel = [(UIButton *) sender titleLabel];
+        [[segue destinationViewController] setCardText: [buttonLabel text]];
+    }
+}
+
 @end

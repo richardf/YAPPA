@@ -16,7 +16,6 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    // Drawing code
     [self drawCard];
     
 //    [[UIColor blackColor] setStroke];
