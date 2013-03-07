@@ -17,5 +17,22 @@
     [[self cardView] setCardText: [self cardText]];
 }
 
+- (IBAction)tap:(UITapGestureRecognizer *)sender {
+    if(self.cardView.faceUp) {
+        [self dismissViewControllerAnimated:YES completion:NULL];
+    } else {
+        [self flipCard];
+    }
+}
+
+- (void) flipCard {
+    [UIView transitionWithView:self.cardView
+                duration:0.5
+                options:UIViewAnimationOptionTransitionFlipFromLeft
+                animations:^{
+                    self.cardView.faceUp  = !self.cardView.faceUp;
+                }
+                completion:NULL];
+}
 
 @end

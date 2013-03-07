@@ -71,9 +71,14 @@
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qe3-dV-OGw" customClass="CardView">
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Uv4-Kn-2Tt" appends="YES" id="6ET-yu-6rW"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Qe3-dV-OGw" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="MGr-w7-ako"/>
                             <constraint firstItem="Qe3-dV-OGw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="50" id="sFZ-x0-vJk"/>
@@ -86,6 +91,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Uv4-Kn-2Tt">
+                    <connections>
+                        <action selector="tap:" destination="2" id="rvX-4n-AQW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="655" y="57"/>
         </scene>
@@ -118,6 +128,7 @@
         <class className="YAPPAViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/YAPPAViewController.h"/>
             <relationships>
+                <relationship kind="action" name="tap:" candidateClass="UITapGestureRecognizer"/>
                 <relationship kind="outlet" name="cardView" candidateClass="CardView"/>
             </relationships>
         </class>
