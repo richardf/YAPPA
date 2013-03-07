@@ -1,7 +1,8 @@
 #import "CardView.h"
 
-#define CARD_CORNER_RADIUS 10.0
+#define CARD_CORNER_RADIUS 8.0
 #define FONT_RATIO 0.5
+#define CARD_BACK_FILE @"card-back.png"
 
 @implementation CardView
 
@@ -20,9 +21,11 @@
     
 //    [[UIColor blackColor] setStroke];
 //    [roundedRect stroke];
-    
-    [self drawCardText: self.cardText];
-    
+    if (self.faceUp) {
+        [self drawCardText: self.cardText];
+    } else {
+        [self drawCardBack];
+    }
 }
 
 - (void) drawCard {
@@ -32,6 +35,10 @@
     
     [[UIColor whiteColor] setFill];
     UIRectFill(self.bounds);
+}
+
+- (void) drawCardBack {
+    [[UIImage imageNamed: CARD_BACK_FILE] drawInRect:self.bounds];
 }
 
 - (void) drawCardText:(NSString *) text {

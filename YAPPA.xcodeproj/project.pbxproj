@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7915263F16E2DF9D0093FD11 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7915263E16E2DF9D0093FD11 /* CardView.m */; };
 		792338A916E6D8DF00E70743 /* YAPPAListCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */; };
+		79684A0D16E95A9B006894A9 /* card-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 79684A0C16E95A9B006894A9 /* card-back.png */; };
 		798ECA3716E2DBF4006A0F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3616E2DBF4006A0F98 /* UIKit.framework */; };
 		798ECA3916E2DBF4006A0F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3816E2DBF4006A0F98 /* Foundation.framework */; };
 		798ECA3B16E2DBF4006A0F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3A16E2DBF4006A0F98 /* CoreGraphics.framework */; };
@@ -42,6 +43,7 @@
 		7915263E16E2DF9D0093FD11 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		792338A716E6D8DF00E70743 /* YAPPAListCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPAListCardsViewController.h; sourceTree = "<group>"; };
 		792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPAListCardsViewController.m; sourceTree = "<group>"; };
+		79684A0C16E95A9B006894A9 /* card-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-back.png"; sourceTree = "<group>"; };
 		798ECA3316E2DBF4006A0F98 /* YAPPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAPPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798ECA3616E2DBF4006A0F98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		798ECA3816E2DBF4006A0F98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				798ECA3E16E2DBF4006A0F98 /* YAPPA-Info.plist */,
+				79684A0C16E95A9B006894A9 /* card-back.png */,
 				798ECA3F16E2DBF4006A0F98 /* InfoPlist.strings */,
 				798ECA4216E2DBF4006A0F98 /* main.m */,
 				798ECA4416E2DBF4006A0F98 /* YAPPA-Prefix.pch */,
@@ -263,6 +266,7 @@
 				798ECA4B16E2DBF4006A0F98 /* Default@2x.png in Resources */,
 				798ECA4D16E2DBF4006A0F98 /* Default-568h@2x.png in Resources */,
 				798ECA5016E2DBF4006A0F98 /* MainStoryboard.storyboard in Resources */,
+				79684A0D16E95A9B006894A9 /* card-back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
