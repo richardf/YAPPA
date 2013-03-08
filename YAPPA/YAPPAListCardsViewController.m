@@ -1,5 +1,6 @@
 #import "YAPPAListCardsViewController.h"
 #import "CardView.h"
+#import "YAPPADeckFactory.h"
 
 @interface YAPPAListCardsViewController ()
 @property(strong, nonatomic) NSArray *deck;
@@ -19,7 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.deck = [NSArray arrayWithObjects:@"0", @"1/2", @"1", @"3", @"13", @"100", nil];
+    self.deck = [YAPPADeckFactory createDeck: DECK_DEFAULT];
 }
 
 - (void)didReceiveMemoryWarning

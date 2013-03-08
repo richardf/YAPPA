@@ -27,7 +27,7 @@
 
 - (void) flipCard {
     [UIView transitionWithView:self.cardView
-                duration:0.5
+                duration:0.4
                 options:UIViewAnimationOptionTransitionFlipFromLeft
                 animations:^{
                     self.cardView.faceUp  = !self.cardView.faceUp;

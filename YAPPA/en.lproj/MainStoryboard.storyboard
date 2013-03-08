@@ -28,9 +28,8 @@
                                         <button autoresizesSubviews="NO" opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBi-Ft-Wta">
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="99" id="BiD-FI-VHE"/>
-                                                <constraint firstAttribute="width" constant="70" id="kO8-4f-8oj"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                             <state key="normal">
                                                 <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -46,8 +45,9 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="RBi-Ft-Wta" firstAttribute="top" secondItem="SlJ-as-vwY" secondAttribute="top" type="default" id="AFA-kt-QJR"/>
-                                    <constraint firstItem="RBi-Ft-Wta" firstAttribute="leading" secondItem="SlJ-as-vwY" secondAttribute="leading" type="default" id="FQP-3k-N8g"/>
+                                    <constraint firstItem="RBi-Ft-Wta" firstAttribute="top" secondItem="SlJ-as-vwY" secondAttribute="top" constant="-1" id="KNr-GL-f1V"/>
+                                    <constraint firstItem="RBi-Ft-Wta" firstAttribute="leading" secondItem="SlJ-as-vwY" secondAttribute="leading" type="default" id="Mkq-bE-ub3"/>
+                                    <constraint firstItem="RBi-Ft-Wta" firstAttribute="trailing" secondItem="SlJ-as-vwY" secondAttribute="trailing" type="default" id="r83-VJ-oYz"/>
                                 </constraints>
                             </collectionViewCell>
                         </cells>
