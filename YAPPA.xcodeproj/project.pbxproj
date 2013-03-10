@@ -27,7 +27,7 @@
 		798ECA5C16E2DBF4006A0F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3616E2DBF4006A0F98 /* UIKit.framework */; };
 		798ECA5D16E2DBF4006A0F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3816E2DBF4006A0F98 /* Foundation.framework */; };
 		798ECA6516E2DBF4006A0F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA6316E2DBF4006A0F98 /* InfoPlist.strings */; };
-		798ECA6816E2DBF4006A0F98 /* YAPPATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECA6716E2DBF4006A0F98 /* YAPPATests.m */; };
+		79A1431E16ED4A9600E66F12 /* YAPPADeckFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1431D16ED4A9500E66F12 /* YAPPADeckFactoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +68,8 @@
 		798ECA5A16E2DBF4006A0F98 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		798ECA6216E2DBF4006A0F98 /* YAPPATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAPPATests-Info.plist"; sourceTree = "<group>"; };
 		798ECA6416E2DBF4006A0F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		798ECA6616E2DBF4006A0F98 /* YAPPATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAPPATests.h; sourceTree = "<group>"; };
-		798ECA6716E2DBF4006A0F98 /* YAPPATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAPPATests.m; sourceTree = "<group>"; };
+		79A1431C16ED4A9500E66F12 /* YAPPADeckFactoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPADeckFactoryTests.h; sourceTree = "<group>"; };
+		79A1431D16ED4A9500E66F12 /* YAPPADeckFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPADeckFactoryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,9 +187,9 @@
 		798ECA6016E2DBF4006A0F98 /* YAPPATests */ = {
 			isa = PBXGroup;
 			children = (
-				798ECA6616E2DBF4006A0F98 /* YAPPATests.h */,
-				798ECA6716E2DBF4006A0F98 /* YAPPATests.m */,
 				798ECA6116E2DBF4006A0F98 /* Supporting Files */,
+				79A1431C16ED4A9500E66F12 /* YAPPADeckFactoryTests.h */,
+				79A1431D16ED4A9500E66F12 /* YAPPADeckFactoryTests.m */,
 			);
 			path = YAPPATests;
 			sourceTree = "<group>";
@@ -328,8 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798ECA6816E2DBF4006A0F98 /* YAPPATests.m in Sources */,
 				7983AAEA16EA9BDE00E0C7AE /* YAPPADeckFactory.m in Sources */,
+				79A1431E16ED4A9600E66F12 /* YAPPADeckFactoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
