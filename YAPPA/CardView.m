@@ -6,21 +6,10 @@
 
 @implementation CardView
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
-
 - (void)drawRect:(CGRect)rect
 {
     [self drawCard];
     
-//    [[UIColor blackColor] setStroke];
-//    [roundedRect stroke];
     if (self.faceUp) {
         [self drawCardText: self.cardText];
     } else {
