@@ -56,7 +56,7 @@
                                         </constraints>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hVR-Zw-aax">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header" id="hVR-Zw-aax">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="2"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
