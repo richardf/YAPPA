@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface YAPPAListCardsViewController : UICollectionViewController
+@interface YAPPAListCardsViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>
 
 @end

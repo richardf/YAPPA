@@ -4,6 +4,7 @@
 
 @interface YAPPAListCardsViewController ()
 @property(strong, nonatomic) NSArray *deck;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @end
 
 @implementation YAPPAListCardsViewController

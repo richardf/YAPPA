@@ -28,6 +28,9 @@
 		798ECA5D16E2DBF4006A0F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798ECA3816E2DBF4006A0F98 /* Foundation.framework */; };
 		798ECA6516E2DBF4006A0F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798ECA6316E2DBF4006A0F98 /* InfoPlist.strings */; };
 		79A1431E16ED4A9600E66F12 /* YAPPADeckFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1431D16ED4A9500E66F12 /* YAPPADeckFactoryTests.m */; };
+		79B39DCD16F005D90047ADAF /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B39DCC16F005D90047ADAF /* gear.png */; };
+		79B39DD016F00CDD0047ADAF /* YAPPAConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */; };
+		79B39DD116F00CDD0047ADAF /* YAPPAConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		798ECA6416E2DBF4006A0F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79A1431C16ED4A9500E66F12 /* YAPPADeckFactoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPADeckFactoryTests.h; sourceTree = "<group>"; };
 		79A1431D16ED4A9500E66F12 /* YAPPADeckFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPADeckFactoryTests.m; sourceTree = "<group>"; };
+		79B39DCC16F005D90047ADAF /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		79B39DCE16F00CDD0047ADAF /* YAPPAConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPAConfigController.h; sourceTree = "<group>"; };
+		79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPAConfigController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 				798ECA5216E2DBF4006A0F98 /* YAPPAViewController.m */,
 				792338A716E6D8DF00E70743 /* YAPPAListCardsViewController.h */,
 				792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */,
+				79B39DCE16F00CDD0047ADAF /* YAPPAConfigController.h */,
+				79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 			children = (
 				798ECA3E16E2DBF4006A0F98 /* YAPPA-Info.plist */,
 				79684A0C16E95A9B006894A9 /* card-back.png */,
+				79B39DCC16F005D90047ADAF /* gear.png */,
 				798ECA3F16E2DBF4006A0F98 /* InfoPlist.strings */,
 				798ECA4216E2DBF4006A0F98 /* main.m */,
 				798ECA4416E2DBF4006A0F98 /* YAPPA-Prefix.pch */,
@@ -281,6 +290,7 @@
 				798ECA4D16E2DBF4006A0F98 /* Default-568h@2x.png in Resources */,
 				798ECA5016E2DBF4006A0F98 /* MainStoryboard.storyboard in Resources */,
 				79684A0D16E95A9B006894A9 /* card-back.png in Resources */,
+				79B39DCD16F005D90047ADAF /* gear.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +331,7 @@
 				7915263F16E2DF9D0093FD11 /* CardView.m in Sources */,
 				792338A916E6D8DF00E70743 /* YAPPAListCardsViewController.m in Sources */,
 				7983AAE916EA9BDE00E0C7AE /* YAPPADeckFactory.m in Sources */,
+				79B39DD016F00CDD0047ADAF /* YAPPAConfigController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +341,7 @@
 			files = (
 				7983AAEA16EA9BDE00E0C7AE /* YAPPADeckFactory.m in Sources */,
 				79A1431E16ED4A9600E66F12 /* YAPPADeckFactoryTests.m in Sources */,
+				79B39DD116F00CDD0047ADAF /* YAPPAConfigController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
