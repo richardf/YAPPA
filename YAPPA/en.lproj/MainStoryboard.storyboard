@@ -50,9 +50,9 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="6yC-HQ-1gn" firstAttribute="top" secondItem="58E-Lq-2o3" secondAttribute="top" type="default" id="8eS-uU-a60"/>
-                                            <constraint firstItem="6yC-HQ-1gn" firstAttribute="bottom" secondItem="58E-Lq-2o3" secondAttribute="bottom" type="default" id="EIP-hC-UNI"/>
-                                            <constraint firstItem="6yC-HQ-1gn" firstAttribute="centerX" secondItem="58E-Lq-2o3" secondAttribute="centerX" type="default" id="p0F-NR-bjm"/>
+                                            <constraint firstItem="6yC-HQ-1gn" firstAttribute="centerX" secondItem="58E-Lq-2o3" secondAttribute="centerX" type="default" id="BbQ-56-cjj"/>
+                                            <constraint firstItem="6yC-HQ-1gn" firstAttribute="bottom" secondItem="58E-Lq-2o3" secondAttribute="bottom" type="default" id="Ho9-BW-49h"/>
+                                            <constraint firstItem="6yC-HQ-1gn" firstAttribute="centerY" secondItem="58E-Lq-2o3" secondAttribute="centerY" type="default" id="Od2-7J-jtI"/>
                                         </constraints>
                                     </collectionViewCell>
                                 </cells>
@@ -117,12 +117,30 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SR1-iC-shI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="3y1-5H-qq6"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Fibo"/>
+                                    <segment title="T-Shirt"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Deck type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCJ-zz-Auu">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="opd-Ju-vAf" firstAttribute="trailing" secondItem="HVf-Za-Ycw" secondAttribute="trailing" type="default" id="Bg8-WZ-xcq"/>
+                            <constraint firstItem="SR1-iC-shI" firstAttribute="centerX" secondItem="opd-Ju-vAf" secondAttribute="centerX" type="default" id="Hvc-3q-44d"/>
                             <constraint firstItem="opd-Ju-vAf" firstAttribute="leading" secondItem="HVf-Za-Ycw" secondAttribute="leading" type="default" id="I1O-zT-RXA"/>
+                            <constraint firstItem="rCJ-zz-Auu" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" constant="61" id="OKX-CV-wCw"/>
+                            <constraint firstItem="SR1-iC-shI" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" constant="95" id="ewd-rS-RUb"/>
                             <constraint firstItem="opd-Ju-vAf" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" type="default" id="rhU-ND-jao"/>
+                            <constraint firstItem="rCJ-zz-Auu" firstAttribute="leading" secondItem="HVf-Za-Ycw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="xU7-FP-T2f"/>
                         </constraints>
                     </view>
                 </viewController>
