@@ -125,6 +125,9 @@
                                     <segment title="Fibo"/>
                                     <segment title="T-Shirt"/>
                                 </segments>
+                                <connections>
+                                    <action selector="changeDeckType:" destination="xsv-Gf-FA5" eventType="valueChanged" id="CAI-IP-HlC"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Deck type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCJ-zz-Auu">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -143,6 +146,9 @@
                             <constraint firstItem="rCJ-zz-Auu" firstAttribute="leading" secondItem="HVf-Za-Ycw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="xU7-FP-T2f"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="deckTypeSegmentedControl" destination="SR1-iC-shI" id="dUv-C8-70o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9l-rm-Owg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -190,45 +196,6 @@
     <resources>
         <image name="gear.png" width="110" height="110"/>
     </resources>
-    <classes>
-        <class className="CardView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CardView.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="UICollectionReusableView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
-        </class>
-        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
-        </class>
-        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
-        </class>
-        <class className="UICollectionViewLayout" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
-        </class>
-        <class className="YAPPAConfigController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YAPPAConfigController.h"/>
-            <relationships>
-                <relationship kind="action" name="done:"/>
-            </relationships>
-        </class>
-        <class className="YAPPAListCardsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YAPPAListCardsViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="collectionView" candidateClass="UICollectionView"/>
-            </relationships>
-        </class>
-        <class className="YAPPAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YAPPAViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="tap:" candidateClass="UITapGestureRecognizer"/>
-                <relationship kind="outlet" name="cardView" candidateClass="CardView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

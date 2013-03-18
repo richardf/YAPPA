@@ -1,42 +1,42 @@
-//
-//  YAPPAConfigController.m
-//  YAPPA
-//
-//  Created by Richard Fuchshuber on 12/03/13.
-//  Copyright (c) 2013 Richard Fuchshuber. All rights reserved.
-//
-
 #import "YAPPAConfigController.h"
-
+#import "YAPPADeckFactory.h"
 @interface YAPPAConfigController ()
+@property (weak, nonatomic) IBOutlet UISegmentedControl *deckTypeSegmentedControl;
 
 @end
 
 @implementation YAPPAConfigController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.deckTypeSegmentedControl.selectedSegmentIndex = [self indexOfDeckType: self.deckType];
 }
 
 - (IBAction)done:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)changeDeckType:(UISegmentedControl *)sender {
+    if(sender.selectedSegmentIndex == DECK_DEFAULT_SEG) {
+        [self.delegate deckChangedToType:DECK_DEFAULT];
+    } else if (sender.selectedSegmentIndex == DECK_TSHIRT_SEG) {
+        [self.delegate deckChangedToType:DECK_TSHIRT];
+    }
+}
+
+-(NSUInteger) indexOfDeckType: (NSString *) deckType {
+    if([deckType isEqualToString: DECK_DEFAULT]) {
+        return 0;
+    }
+    else {
+        return 1;
+    }
 }
 
 @end

@@ -1,13 +1,9 @@
-//
-//  YAPPAConfigController.h
-//  YAPPA
-//
-//  Created by Richard Fuchshuber on 12/03/13.
-//  Copyright (c) 2013 Richard Fuchshuber. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import "YAPPADeckChangedProtocol.h"
+#define DECK_DEFAULT_SEG 0
+#define DECK_TSHIRT_SEG 1
 
 @interface YAPPAConfigController : UIViewController
-
+@property(strong, nonatomic) NSString *deckType;
+@property(weak, nonatomic) id<YAPPADeckChangedProtocol> delegate;
 @end

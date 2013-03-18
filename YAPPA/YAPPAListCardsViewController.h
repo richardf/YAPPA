@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
+#import "YAPPADeckChangedProtocol.h"
 
-@interface YAPPAListCardsViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>
+@interface YAPPAListCardsViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate, YAPPADeckChangedProtocol>
 
 @end

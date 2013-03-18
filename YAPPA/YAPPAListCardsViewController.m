@@ -4,6 +4,7 @@
 
 @interface YAPPAListCardsViewController ()
 @property(strong, nonatomic) NSArray *deck;
+@property(strong, nonatomic) NSString *deckType;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @end
 
@@ -13,12 +14,12 @@
 {
     [super viewDidLoad];
     self.deck = [YAPPADeckFactory createDeck: DECK_DEFAULT];
+    self.deckType = DECK_DEFAULT;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.collectionView reloadData];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -41,6 +42,15 @@
         UILabel *buttonLabel = [(UIButton *) sender titleLabel];
         [[segue destinationViewController] setCardText: [buttonLabel text]];
     }
+    else if([[segue identifier] isEqualToString:@"showConfig"]) {
+        [[segue destinationViewController] setDelegate: self];
+        [[segue destinationViewController] setDeckType: self.deckType];
+    }
+}
+
+-(void) deckChangedToType:(NSString *)type {
+    self.deck = [YAPPADeckFactory createDeck:type];
+    self.deckType = type;
 }
 
 @end

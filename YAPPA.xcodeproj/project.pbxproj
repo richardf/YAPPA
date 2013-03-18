@@ -46,6 +46,7 @@
 /* Begin PBXFileReference section */
 		7915263D16E2DF9D0093FD11 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
 		7915263E16E2DF9D0093FD11 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		791A172616F6A30C002C794C /* YAPPADeckChangedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPADeckChangedProtocol.h; sourceTree = "<group>"; };
 		792338A716E6D8DF00E70743 /* YAPPAListCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPAListCardsViewController.h; sourceTree = "<group>"; };
 		792338A816E6D8DF00E70743 /* YAPPAListCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPAListCardsViewController.m; sourceTree = "<group>"; };
 		79684A0C16E95A9B006894A9 /* card-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-back.png"; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 			children = (
 				7983AAE716EA9BDE00E0C7AE /* YAPPADeckFactory.h */,
 				7983AAE816EA9BDE00E0C7AE /* YAPPADeckFactory.m */,
+				791A172616F6A30C002C794C /* YAPPADeckChangedProtocol.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
