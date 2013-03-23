@@ -31,6 +31,8 @@
 		79B39DCD16F005D90047ADAF /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B39DCC16F005D90047ADAF /* gear.png */; };
 		79B39DD016F00CDD0047ADAF /* YAPPAConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */; };
 		79B39DD116F00CDD0047ADAF /* YAPPAConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */; };
+		79F8251316FD3F77002588F2 /* YAPPAUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8251216FD3F77002588F2 /* YAPPAUserPreferences.m */; };
+		79F8251416FD3F77002588F2 /* YAPPAUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8251216FD3F77002588F2 /* YAPPAUserPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		79B39DCC16F005D90047ADAF /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
 		79B39DCE16F00CDD0047ADAF /* YAPPAConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPAConfigController.h; sourceTree = "<group>"; };
 		79B39DCF16F00CDD0047ADAF /* YAPPAConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPAConfigController.m; sourceTree = "<group>"; };
+		79F8251116FD3F77002588F2 /* YAPPAUserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPPAUserPreferences.h; sourceTree = "<group>"; };
+		79F8251216FD3F77002588F2 /* YAPPAUserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPPAUserPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				7983AAE716EA9BDE00E0C7AE /* YAPPADeckFactory.h */,
 				7983AAE816EA9BDE00E0C7AE /* YAPPADeckFactory.m */,
 				791A172616F6A30C002C794C /* YAPPADeckChangedProtocol.h */,
+				79F8251116FD3F77002588F2 /* YAPPAUserPreferences.h */,
+				79F8251216FD3F77002588F2 /* YAPPAUserPreferences.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -334,6 +340,7 @@
 				792338A916E6D8DF00E70743 /* YAPPAListCardsViewController.m in Sources */,
 				7983AAE916EA9BDE00E0C7AE /* YAPPADeckFactory.m in Sources */,
 				79B39DD016F00CDD0047ADAF /* YAPPAConfigController.m in Sources */,
+				79F8251316FD3F77002588F2 /* YAPPAUserPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +351,7 @@
 				7983AAEA16EA9BDE00E0C7AE /* YAPPADeckFactory.m in Sources */,
 				79A1431E16ED4A9600E66F12 /* YAPPADeckFactoryTests.m in Sources */,
 				79B39DD116F00CDD0047ADAF /* YAPPAConfigController.m in Sources */,
+				79F8251416FD3F77002588F2 /* YAPPAUserPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

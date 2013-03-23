@@ -1,6 +1,7 @@
 #import "YAPPAListCardsViewController.h"
 #import "CardView.h"
 #import "YAPPADeckFactory.h"
+#import "YAPPAUserPreferences.h"
 
 @interface YAPPAListCardsViewController ()
 @property(strong, nonatomic) NSArray *deck;
@@ -13,8 +14,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.deck = [YAPPADeckFactory createDeck: DECK_DEFAULT];
-    self.deckType = DECK_DEFAULT;
+    NSString *deckType = [YAPPAUserPreferences userPreference:YAPPA_PREF_DECK_TYPE];
+    self.deck = [YAPPADeckFactory createDeck: deckType];
+    self.deckType = deckType;
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -51,6 +53,7 @@
 -(void) deckChangedToType:(NSString *)type {
     self.deck = [YAPPADeckFactory createDeck:type];
     self.deckType = type;
+    [YAPPAUserPreferences saveUserPreference:YAPPA_PREF_DECK_TYPE withValue:type];
 }
 
 @end
