@@ -32,10 +32,10 @@
 
 -(NSUInteger) indexOfDeckType: (NSString *) deckType {
     if([deckType isEqualToString: DECK_DEFAULT]) {
-        return 0;
+        return DECK_DEFAULT_SEG;
     }
     else {
-        return 1;
+        return DECK_TSHIRT_SEG;
     }
 }
 
