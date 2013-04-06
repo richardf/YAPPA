@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="g2M-an-Haa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="g2M-an-Haa">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -13,18 +13,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qMa-24-PTi">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="425" id="eJI-4i-QCZ"/>
-                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DvZ-xc-2zU">
                                     <size key="itemSize" width="70" height="95"/>
-                                    <size key="headerReferenceSize" width="0.0" height="2"/>
+                                    <size key="headerReferenceSize" width="0.0" height="5"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="58E-Lq-2o3">
-                                        <rect key="frame" x="0.0" y="2" width="70" height="95"/>
+                                        <rect key="frame" x="5" y="5" width="70" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="70" height="95"/>
@@ -57,7 +54,7 @@
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header" id="hVR-Zw-aax">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="2"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
                                 <connections>
@@ -85,11 +82,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gCt-hY-YA0" firstAttribute="bottom" secondItem="nDG-Ue-BZg" secondAttribute="bottom" type="default" id="DET-1c-a9F"/>
                             <constraint firstItem="qMa-24-PTi" firstAttribute="leading" secondItem="nDG-Ue-BZg" secondAttribute="leading" type="default" id="EaW-Uq-eHp"/>
                             <constraint firstItem="qMa-24-PTi" firstAttribute="top" secondItem="nDG-Ue-BZg" secondAttribute="top" type="default" id="GXL-IS-Zge"/>
                             <constraint firstItem="qMa-24-PTi" firstAttribute="trailing" secondItem="nDG-Ue-BZg" secondAttribute="trailing" type="default" id="N09-zc-fqQ"/>
-                            <constraint firstItem="gCt-hY-YA0" firstAttribute="trailing" secondItem="nDG-Ue-BZg" secondAttribute="trailing" type="default" id="t74-XM-PNx"/>
+                            <constraint firstItem="gCt-hY-YA0" firstAttribute="bottom" secondItem="nDG-Ue-BZg" secondAttribute="bottom" type="default" id="O6m-Lz-3ox"/>
+                            <constraint firstItem="gCt-hY-YA0" firstAttribute="top" secondItem="qMa-24-PTi" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lA6-Sc-J4w"/>
+                            <constraint firstItem="gCt-hY-YA0" firstAttribute="trailing" secondItem="nDG-Ue-BZg" secondAttribute="trailing" type="default" id="rqJ-WQ-XNd"/>
                         </constraints>
                     </view>
                     <connections>
@@ -118,9 +116,6 @@
                                 </items>
                             </toolbar>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SR1-iC-shI">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="161" id="3y1-5H-qq6"/>
-                                </constraints>
                                 <segments>
                                     <segment title="Fibo"/>
                                     <segment title="T-Shirt"/>
@@ -140,9 +135,9 @@
                             <constraint firstItem="opd-Ju-vAf" firstAttribute="trailing" secondItem="HVf-Za-Ycw" secondAttribute="trailing" type="default" id="Bg8-WZ-xcq"/>
                             <constraint firstItem="SR1-iC-shI" firstAttribute="centerX" secondItem="opd-Ju-vAf" secondAttribute="centerX" type="default" id="Hvc-3q-44d"/>
                             <constraint firstItem="opd-Ju-vAf" firstAttribute="leading" secondItem="HVf-Za-Ycw" secondAttribute="leading" type="default" id="I1O-zT-RXA"/>
-                            <constraint firstItem="rCJ-zz-Auu" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" constant="61" id="OKX-CV-wCw"/>
-                            <constraint firstItem="SR1-iC-shI" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" constant="95" id="ewd-rS-RUb"/>
+                            <constraint firstItem="SR1-iC-shI" firstAttribute="top" secondItem="rCJ-zz-Auu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ktc-Cy-B6T"/>
                             <constraint firstItem="opd-Ju-vAf" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" type="default" id="rhU-ND-jao"/>
+                            <constraint firstItem="rCJ-zz-Auu" firstAttribute="top" secondItem="HVf-Za-Ycw" secondAttribute="top" constant="66" id="vkg-dW-SFE"/>
                             <constraint firstItem="rCJ-zz-Auu" firstAttribute="leading" secondItem="HVf-Za-Ycw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="xU7-FP-T2f"/>
                         </constraints>
                     </view>
