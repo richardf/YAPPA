@@ -15,6 +15,13 @@
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [[self cardView] setCardText: [self cardText]];
+    
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+}
+
+- (void) viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
 }
 
 - (IBAction)tap:(UITapGestureRecognizer *)sender {
